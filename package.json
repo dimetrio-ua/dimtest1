@@ -1,0 +1,22 @@
+{
+  "name": "dimtest1",
+  "version": "1.0.0",
+  "description": "Setting up dimtest1 project",
+  "main": "dimtest1.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimetrio-ua/dimtest1.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Dmytro Botnarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimetrio-ua/dimtest1/issues"
+  },
+  "homepage": "https://github.com/dimetrio-ua/dimtest1#readme"
+}
