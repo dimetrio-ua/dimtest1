@@ -1,0 +1,21 @@
+{
+  "name": "dimtest1",
+  "description": "Setting up dimtest1 project",
+  "main": "dimtest1.html",
+  "authors": [
+    "Dmytro Botnarenko"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/dimetrio-ua/dimtest1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
