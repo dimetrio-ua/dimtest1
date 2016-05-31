@@ -1,4 +1,10 @@
 body {
-  background: pink;
+  background: cyan;
   display: flex;
+}
+
+div {
+  color: red;
+  background: blue;
+  border: solid 1px yellow;
 }
