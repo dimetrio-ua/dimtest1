@@ -13,8 +13,17 @@ gulp.task('css', function () {
     .pipe(connect.reload())
 });
 
+gulp.task('html', function() {
+    return gulp.src('source/html/**/*.html')
+        .pipe(gulp.dest('build'))
+        .pipe(connect.reload())
+        /*.pipe(livereload(server))
+        .pipe(notify({ message: 'HTML task complete' }));*/
+});
+
 gulp.task('watch', function () {
    gulp.watch('source/css/*.css', ['css']);
+   gulp.watch('source/html/**/*.html', ['html']);
 });
 
 gulp.task('default', ['css']);
